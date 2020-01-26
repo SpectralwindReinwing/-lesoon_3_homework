@@ -38,3 +38,9 @@ dict_temp = {}
 for i in range (len(new_list)):
     dict_temp[i] = dict.fromkeys([new_list[i]], [new_list.count(new_list[i])])
 print(dict_temp)
+
+#4) вывести 5 наиболее часто встречающихся слов (sort), вывести количество разных слов в тексте (set).
+
+list_2 = list(dict_temp.values())
+print(list_2)
+
